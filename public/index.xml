@@ -43,17 +43,5 @@ I am actually using a modified <a href="https://colemakmods.github.io/mod-dh/">C
 ]]></content:encoded>
     </item>
     
-    <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Thu, 29 Aug 2024 14:00:50 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>Hello this is my first post</description>
-      <content:encoded><![CDATA[<h2 id="hello">Hello</h2>
-<p>this is my first post</p>
-]]></content:encoded>
-    </item>
-    
   </channel>
 </rss>
