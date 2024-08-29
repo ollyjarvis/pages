@@ -1,3 +1,47 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: https://ollyjarvis.uk/
+title: ollyjarvis
+paginate: 5
+theme: 'PaperModX'
+
+params:
+  description: "olly jarvis' portfolio"
+  author: ollyjarvis
+  DateFormat: "02-01-2006"
+  mainSections:
+    - posts
+    - notes
+
+  DisableLanguageSwitch: true
+  ShowWordCount: true
+  Email: hello@ollyjarvis.uk
+  socialIcons:
+    - name: linkedin-simple
+      url: 'https://linkedin.com/in/oliver-jarvis'
+    - name: github-simple
+      url: 'https://github.com/ollyjarvis'
+    - name: gmail
+      url: 'mailto:hello@ollyjarvis.uk'
+
+  homeInfoParams:
+    Title: "Hello, my name is Olly"
+    Content: |
+      I'm a 20 year old Undergraduate Computer Science student at the University of Leeds.
+
+  menu:
+    main:
+      - name: Posts
+        url: /posts/
+        weight: 1
+
+  languages:
+    en:
+      languageName: "English"
+
+  markup:
+    goldmark:
+      renderer:
+        unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
