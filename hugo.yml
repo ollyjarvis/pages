@@ -9,11 +9,13 @@ params:
   DateFormat: "02-01-2006"
   mainSections:
     - posts
-    - notes
+  disableAnchoredHeadings: true
 
+  defaultTheme: auto
   DisableLanguageSwitch: true
   ShowWordCount: true
-  Email: hello@ollyjarvis.uk
+  ShowReadingTime: true
+  EnableInstantClick: true
   socialIcons:
     - name: linkedin-simple
       url: 'https://linkedin.com/in/oliver-jarvis'
@@ -32,6 +34,9 @@ params:
       - name: Posts
         url: /posts/
         weight: 1
+
+  minify:
+    disableXML: true
 
   languages:
     en:

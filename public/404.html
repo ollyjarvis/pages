@@ -123,7 +123,7 @@ function toggleThemeListener() {
 <script>
   
   (function() {
-    const defaultTheme = 'light';
+    const defaultTheme = 'auto';
     const prefTheme = getPrefTheme();
     const theme = prefTheme ? prefTheme : defaultTheme;
 
@@ -209,7 +209,7 @@ function toggleThemeListener() {
     }
 
     const disableSmoothScroll = '' == '1';
-    const enableInstantClick = '' == '1';
+    const enableInstantClick = '1' == '1';
     
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
       return;
@@ -257,6 +257,17 @@ function toggleThemeListener() {
 
 <script src="/js/medium-zoom.min.js" data-no-instant
 ></script>
+<script src="/js/instantclick.js" data-no-instant
+></script>
+<script data-no-instant>
+  
+  
+  
+  
+  
+  
+  InstantClick.init();
+</script>
 </body>
 
 </html>
