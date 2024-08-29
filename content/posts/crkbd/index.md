@@ -28,6 +28,25 @@ QWERTY is bad, by every metric it **sucks**. But most basically it puts the most
 ![QWERTY](images/qwerty-heatmap.png)
 ![COLEMAK](images/colemak-heatmap.png)
 I am actually using a modified [Colemak Mod-DH](https://colemakmods.github.io/mod-dh/) and a different keyboard than the image but this demonstrates the benefit on some english sample text.
+### Layers
+You might be thinking, fairly, "How do you fit all your keys onto 42 switches?". Well there are two techniques I use on my Corne, the first being layers.
+You have likely experienced layers on your phone's keyboard where numbers and symbols are in a second layer. I have two layers (one activated by each thumb) for numbers and symbols separately. This allows all of my keys to be within reach at the home-row and is what allows keyboards so small to exist.
+### Home-row Modifiers
+The second is slightly more unusual. The modifier keys have some problems. 
+
+```
+Does your pinky ever get tired from holding Shift or Ctrl?
+
+Do you find you fingers contorted trying to press Meta + Shift + 2?
+```
+
+Maybe not. But I do. For Hyprland (did I say arch btw), Copy + Paste etc. Home-row mods put your mods on your home-row simply by holding the key instead of a letter you get a modifier. Using QWERTY for simplicity.
+| Left | Right | Modifier |
+| --------------- | --------------- | --------------- |
+| F | J | Shift |
+| D | K | Ctrl |
+| S | L | Meta |
+
 
 ## Conclusion
 I am bad at typing on the Corne at the minute, barely able to get to 20 WPM currently (after 5 days), but I was bad on QWERTY (50 WPM) after over 10 years, I think that my new layout forcing me to touch type will mean I pass 50 WPM soon enough.
